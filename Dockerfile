@@ -1,4 +1,4 @@
-FROM mycentos
+FROM centos
 MAINTAINER eminmzh
 RUN yum install httpd -y
 RUN echo 'Hello World.' > /var/www/html/index.html
